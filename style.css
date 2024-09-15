@@ -197,6 +197,7 @@ background-color:rgba(10, 10, 10, 0.5);
   display: none;
 }
 .favStar.active {
+<<<<<<< HEAD
   filter: invert(21%) sepia(86%) saturate(2811%) hue-rotate(1deg) brightness(103%) contrast(101%);
 }
 
@@ -207,12 +208,30 @@ background-color:rgba(10, 10, 10, 0.5);
   background-color: var(--color1);
 
   background-image: url('../img/favBtn.svg');
+=======
+  filter: invert(1) sepia(1) saturate(10) hue-rotate(-45deg); 
+}
+
+.favStar {
+  background-color:rgba(200, 200, 200, 0.8); 
+  padding: 5px; 
+  border-radius: 3px; 
+  width: 40px; 
+  height: 40px; 
+  background-color: var(--color1);
+  background-image: url('./img/favBtn.svg');
+>>>>>>> 84f4d26d64990562285a5fdcfbcdb12cfa3bfe24
   background-size: 35px;
   background-position: top 5px left 5px;
   background-repeat: no-repeat;
   position: absolute;
+<<<<<<< HEAD
   top: 20px;
   left: 20px;
+=======
+  top: 10px; 
+  left: 10px; 
+>>>>>>> 84f4d26d64990562285a5fdcfbcdb12cfa3bfe24
   filter: invert(1);
   cursor: pointer;
 }
